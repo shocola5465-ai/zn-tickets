@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ZN Tickets | Bot de Tickets para Discord</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZN Tickets es un bot de Discord para gestionar tickets de soporte de forma profesional.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white">
+
+<!-- HEADER -->
+<header class="bg-indigo-700 p-6 shadow">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">ZN Tickets</h1>
+    <a href="#" class="bg-white text-indigo-700 px-5 py-2 rounded-lg font-semibold">Invitar Bot</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <h2 class="text-4xl font-bold mb-4">Sistema Profesional de Tickets para Discord</h2>
+    <p class="mb-6 text-gray-300">
+      ZN Tickets te permite crear, gestionar y cerrar tickets de soporte automáticamente
+      dentro de tu servidor de Discord.
+    </p>
+    <div class="flex gap-4">
+      <a href="#" class="bg-indigo-600 px-6 py-3 rounded-lg">Añadir a Discord</a>
+      <a href="#panel" class="border border-white px-6 py-3 rounded-lg">Ver Panel</a>
+    </div>
+  </div>
+  <div class="bg-gray-900 p-6 rounded-xl shadow">
+    <p class="text-sm text-gray-400 mb-2">Ejemplo de ticket</p>
+    <div class="bg-gray-800 p-4 rounded text-sm">
+      Usuario: usuario#1234 <br>
+      Categoría: Soporte <br>
+      Estado: Abierto
+    </div>
+  </div>
+</section>
+
+<!-- FUNCIONES -->
+<section class="bg-gray-900 py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Funciones Principales</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-lg text-center">
+        <h4 class="font-bold mb-2">Creación Automática</h4>
+        <p class="text-gray-300">Los tickets se crean con un solo comando o botón.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg text-center">
+        <h4 class="font-bold mb-2">Roles de Soporte</h4>
+        <p class="text-gray-300">Asigna permisos a tu equipo de staff.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg text-center">
+        <h4 class="font-bold mb-2">Historial</h4>
+        <p class="text-gray-300">Guarda las conversaciones de cada ticket.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL -->
+<section id="panel" class="py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Panel de Configuración (Demo)</h3>
+    <div class="bg-gray-900 p-8 rounded-xl shadow grid md:grid-cols-2 gap-6">
+      <div>
+        <label class="block mb-1">Categoría de Tickets</label>
+        <input class="w-full p-2 rounded bg-gray-800 border border-gray-700" placeholder="Soporte">
+      </div>
+      <div>
+        <label class="block mb-1">Rol de Staff</label>
+        <input class="w-full p-2 rounded bg-gray-800 border border-gray-700" placeholder="@Soporte">
+      </div>
+      <div>
+        <label class="block mb-1">Mensaje de Bienvenida</label>
+        <input class="w-full p-2 rounded bg-gray-800 border border-gray-700" placeholder="Describe tu problema...">
+      </div>
+      <div>
+        <label class="block mb-1">Canal de Logs</label>
+        <input class="w-full p-2 rounded bg-gray-800 border border-gray-700" placeholder="#logs">
+      </div>
+      <div class="md:col-span-2 text-center">
+        <button class="bg-indigo-600 px-6 py-3 rounded-lg mt-4">
+          Guardar Configuración (Demo)
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMANDOS -->
+<section class="bg-gray-900 py-16">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Comandos Disponibles</h3>
+    <div class="bg-gray-800 p-6 rounded text-left">
+      <code class="text-sm">
+        /ticket abrir <br>
+        /ticket cerrar <br>
+        /ticket asignar <br>
+        /ticket transcript <br>
+        /ticket ayuda
+      </code>
+    </div>
+  </div>
+</section>
+
+<!-- ESTADO -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-4">Estado del Bot</h3>
+    <p class="text-gray-300">
+      El bot aún no está desarrollado. Esta web está preparada para conectarse
+      cuando el sistema esté activo.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black p-6 text-center text-gray-400">
+  © 2025 ZN Tickets — Bot de Tickets para Discord
+</footer>
+
+</body>
+</html>
